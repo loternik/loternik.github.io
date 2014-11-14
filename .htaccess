@@ -1,2 +1,2 @@
-RewriteCond %{HTTP_HOST} ^loternik.github.io
-RewriteRule ^(.*) http://vps114485.ovh.net:8080/$1 [P]
+RewriteCond %{HTTP_HOST} ^vps114485.ovh.net:8080
+RewriteRule ^(.*) http://loternik.github.io/$1 [P]
