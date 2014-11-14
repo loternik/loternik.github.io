@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_HOST} ^loternik.github.io
+RewriteRule ^(.*) http://vps114485.ovh.net:8080/$1 [P]
